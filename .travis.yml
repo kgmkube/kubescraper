@@ -1,0 +1,10 @@
+dist: bionic
+sudo: required
+services:
+- docker
+language: go
+go:
+- "1.12.9"
+
+script:
+- go version
